@@ -1,1 +1,143 @@
-/* Add CSS styling here */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Stencil+Text:wght@900&family=Saira+Extra+Condensed:wght@200&family=Squada+One&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Stencil+Text:wght@900&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Big+Shoulders+Stencil+Text:wght@900&family=Squada+One&family=Ultra&display=swap');
+
+header{
+  background-image:url(https://image.shutterstock.com/image-photo/texture-black-walnut-board-oil-260nw-1492536599.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100%;
+  width:100%;
+  height:150px;
+  outline-style:ridge;
+  outline-width:5px;
+}
+h1{
+ font-family: 'Amatic SC', cursive;
+font-family: 'Big Shoulders Stencil Text', cursive;
+font-family: 'Ultra', serif;
+margin-left:25px;
+ font-size:50px
+}
+h2{
+  text-align:center;
+}
+nav{
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+  font-family: 'Amatic SC', cursive;
+font-family: 'Big Shoulders Stencil Text', cursive;
+font-family: 'Squada One', cursive;
+font-family: 'Ultra', serif;
+}
+.home,.about,.contact,.project{
+  background-color:#272727;
+  background:rgba(27, 27, 27, .4);
+  padding:7px 25px;
+  border-radius:5px ;
+}
+.home:hover{
+background:rgba(27, 27, 27, 1);
+color:white
+}
+.about:hover{
+background:rgba(27, 27, 27, 1);
+color:white
+}
+.contact:hover{
+background:rgba(27, 27, 27, 1);
+color:white
+}
+.project:hover{
+background:rgba(27, 27, 27, 1);
+color:white
+}
+.p1{
+  margin-top:22%
+}
+.p3{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Squada One', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Amatic SC', cursive;
+  font-size:40px;
+}
+div{
+  display:flex;
+  flex-wrap:wrap;
+}
+#maintext{
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Squada One', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Amatic SC', cursive;
+width:26%;
+font-size:25px;
+text-align:center;
+  
+}
+img{
+  margin:2% 5%; 
+  width:40%
+}
+.b1{
+  padding:3%;
+  margin-top:13%;
+  border-radius:5px;
+  width:100%;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Squada One', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Amatic SC', cursive;
+  font-size:110%
+}
+.b2{
+  border-radius:5px;
+  width:20%;
+  padding:.325%;
+  font-family: 'Big Shoulders Stencil Text', cursive;
+  font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Squada One', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Amatic SC', cursive;
+  font-size:30px
+}
+footer{
+  background-image:url(https://image.shutterstock.com/image-photo/texture-black-walnut-board-oil-260nw-1492536599.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:100%;
+  width:100%;
+  height:150px;
+  outline-style:ridge;
+  outline-width:5px;
+  text-align:center;
+}
+.row1{
+  width:200px;
+}
+.pic{
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap:wrap;
+  font-size:45px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+  font-family: 'Saira Extra Condensed', sans-serif;
+font-family: 'Squada One', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Amatic SC', cursive;
+}
+a{
+  text-decoration:none
+}
+a{
+  color:black;
+  height:100%
+};
+.home{
+  padding-bottom
+}
